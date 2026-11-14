@@ -1,0 +1,20 @@
+# BoostRwanda - Apache settings (XAMPP)
+Options -Indexes
+DirectoryIndex index.php
+
+# Block direct access to sensitive file types
+<FilesMatch "\.(sql|md|log|ini|sh|bak|example\.php)$">
+    Require all denied
+</FilesMatch>
+<Files "README.md">
+    Require all denied
+</Files>
+
+# Service worker must be served as JavaScript
+<IfModule mod_headers.c>
+    <Files "service-worker.js">
+        Header set Service-Worker-Allowed "/BoostRwanda/"
+        Header set Cache-Control "no-cache"
+    </Files>
+    Header always set X-Content-Type-Options "nosniff"
+</IfModule>

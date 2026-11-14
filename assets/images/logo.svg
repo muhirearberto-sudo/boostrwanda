@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="BoostRwanda">
+  <rect width="64" height="64" rx="14" fill="#0a1f4d"/>
+  <path d="M20 14h15c8 0 12 4 12 10 0 4-2 7-6 8 5 1 8 4 8 9 0 7-5 11-14 11H20z" fill="#fff"/>
+  <path d="M28 22v7h6c3 0 5-1 5-3.5S37 22 34 22zm0 17v8h8c3 0 5-1.500 5-4s-2-4-5-4z" fill="#0a1f4d"/>
+  <path d="M30 56 52 36l-3 9 8-2-9 14-1-8z" fill="#f5b301"/>
+</svg>

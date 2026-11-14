@@ -1,0 +1,2 @@
+# Uploaded files are never served directly; tasks/proof.php streams them after an access check.
+Require all denied

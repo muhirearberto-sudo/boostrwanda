@@ -1,0 +1,18 @@
+/* Responsive layouts: tablet (<=900px) and mobile (<=640px) */
+@media (max-width:900px){
+  .grid-3,.grid-4{grid-template-columns:repeat(2,1fr)} .stats{grid-template-columns:repeat(2,1fr)}
+  .hero .container{grid-template-columns:1fr} .hero h1{font-size:2.4rem}
+  .toolbar{grid-template-columns:1fr 1fr} .toolbar .btn{grid-column:span 2}
+  .detail-grid,.chat-layout{grid-template-columns:1fr}
+  .nav-toggle{display:block}
+  .nav{display:none;position:absolute;top:60px;left:0;right:0;background:var(--navy);flex-direction:column;align-items:stretch;padding:.6rem 1rem 1rem;box-shadow:0 10px 20px rgba(0,0,0,.25)}
+  .nav.open{display:flex} .nav>a{padding:.7rem .8rem} .nav .btn{margin:.3rem 0 0;text-align:center}
+}
+@media (max-width:640px){
+  body{font-size:15px} h1{font-size:1.6rem} .hero{padding:3rem 0} .hero h1{font-size:2rem}
+  .grid-2,.grid-3,.grid-4,.form-row,.toolbar,.stats{grid-template-columns:1fr} .toolbar .btn{grid-column:auto}
+  .wallet-hero{flex-direction:column;align-items:flex-start} .wallet-hero .bal{font-size:2rem}
+  .bar-row{grid-template-columns:90px 1fr 56px} .page-head{align-items:flex-start}
+  .chat-box{height:70vh} .bubble{max-width:90%} th,td{padding:.55rem .6rem}
+}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition:none!important}}

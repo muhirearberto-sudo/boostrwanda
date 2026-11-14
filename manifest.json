@@ -1,0 +1,14 @@
+{
+  "name": "BoostRwanda",
+  "short_name": "BoostRwanda",
+  "description": "Work, Earn, Connect - tasks, services, wallet and social platform.",
+  "start_url": "/BoostRwanda/",
+  "scope": "/BoostRwanda/",
+  "display": "standalone",
+  "background_color": "#0a1f4d",
+  "theme_color": "#0a1f4d",
+  "icons": [
+    { "src": "assets/images/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/images/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
